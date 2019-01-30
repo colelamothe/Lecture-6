@@ -1,6 +1,7 @@
 // Lecture 6 programming examples
 
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -32,6 +33,20 @@ int main() {
 	cout << 5 / 2 << endl; // divides integer 5 by integer 2 and returns the integer value 2. Does not calculate the fractional component
 	cout << 5 + 2 << endl; // simple addition
 	cout << 5 - 2 << endl; // simple subtraction
+
+	int val1 = 7;
+	int val2 = 2;
+
+	double r = val1 / val2;
+	cout << r << endl; // outputs integer value only
+
+	double val4 = 2;
+	r = val1 / val2;  
+	cout << r << endl; //outputs with the fractional component
+
+	cout << pow(val2, 2) << endl; //=2^2 but only if #include <cmath> is in program initialization.
+
+
 
 
 
